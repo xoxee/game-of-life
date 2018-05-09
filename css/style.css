@@ -1,0 +1,70 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #737373;
+}
+
+.container {
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+#gameField {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin: 0 10px;
+    border: none;
+    color: white;
+    background-color: #cccccc;
+    color: #333333;
+}
+
+button:hover {
+    background-color: #333333;
+    cursor: pointer;
+    color: #cccccc;
+}
+
+button:focus {
+    outline: none;
+}
+
+#gameField {
+    margin-top: 30px;
+    box-sizing: border-box;
+    width: 700px;
+    height: 500px;
+    border: 1px solid black;
+    line-height: 12px;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.cell {
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 20%;
+    display: inline-block;
+    margin-right: 1px;
+    width: 10px;
+    height: 10px;
+    background-color: #8c8c8c;
+}
+
+.active {
+    background-color: #ffff66;
+}
