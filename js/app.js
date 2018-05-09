@@ -194,12 +194,18 @@
    var startBtn = document.querySelector('#startBtn');
    var resetBtn = document.querySelector('#resetBtn');
    var randomBtn = document.querySelector('#randomBtn');
+   var oneStepBtn = document.querySelector('#oneStepBtn');
    var counter = 0;
    var startStop = null;
 
    createField();
    controls();
 
+
+   function oneStep() {
+       check();
+       play();
+   }
 
    function myInterval() {
        if (!startStop) {
@@ -218,3 +224,4 @@
    startBtn.addEventListener('click', myInterval);
    resetBtn.addEventListener('click', resetField);
    randomBtn.addEventListener('click', randomCells);
+   oneStepBtn.addEventListener('click', oneStep);
