@@ -54,7 +54,7 @@ button:focus {
 
 .cell {
     box-sizing: border-box;
-    border: 1px solid gray;
+
     border-radius: 20%;
     display: inline-block;
     margin-right: 1px;

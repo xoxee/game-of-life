@@ -42,6 +42,7 @@
                array2D[x][y] = cells[y];
            }
        }
+       return array2D;
    }
 
 
